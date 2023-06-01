@@ -1,0 +1,46 @@
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+
+ÇÖZÜM
+
+Root = 7.
+
+# Aşama 1
+  5 < 7
+# Aşama 2
+  1 < 7
+    1 < 5
+# Aşama 3
+  8 > 7
+# Aşama 4
+  3 < 7
+    3 < 5
+      3 > 1
+# Aşama 5
+  6 < 7
+    6 > 5
+# Aşama 6
+  0 < 7
+    0 < 5
+      0 < 1
+# Aşama 7
+  9 > 7
+    9 > 8
+# Aşama 8
+  4 < 7
+    4 < 5
+      4 > 1
+        4 > 3
+# Aşama 9
+  2 < 7
+    2 < 5
+      2 > 1
+        2 < 3
+        
+# Binary Tree
+
+         7
+      5     8
+   1     6     9
+0     3
+   2     4
