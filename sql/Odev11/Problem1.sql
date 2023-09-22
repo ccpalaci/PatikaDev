@@ -1,7 +1,7 @@
 (
 SELECT first_name FROM actor
 )
-UNION ALL
+UNION
 (
 SELECT first_name FROM customer
 );
